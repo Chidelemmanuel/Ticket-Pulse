@@ -9,6 +9,11 @@ export default function Navbar () {
           </Link> 
 
           <span className="space-x-10" >
+
+             <Link to="/Dashboard">
+              <button className="hover:bg-[#29A6D9] hover:text-white px-3 py-2 rounded-md">Dashboard</button>
+            </Link>
+
             <Link to="/Login">
               <button className="hover:bg-[#29A6D9] hover:text-white px-3 py-2 rounded-md">Login</button>
             </Link>

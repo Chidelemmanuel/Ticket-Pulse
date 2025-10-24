@@ -13,7 +13,9 @@ export default function Login () {
                 <input type="text" name="" id=""  className="bg-white p-2 mt-2"/>
                 <label className="mt-2 font-bold">Password</label>
                 <input type="password" name="" id=""  className="bg-white p-2 mt-2"/>
+                <p className="text-red-700 mt-5">Invalid Credentials</p>
                 <button className="rounded-sm bg-[#29A6D9] text-white font-bold p-2 mt-6">Sumbit</button>
+                <p className="text-green-700"> Success! Login successfully. </p>
             </form>
 
             <Footer />  
