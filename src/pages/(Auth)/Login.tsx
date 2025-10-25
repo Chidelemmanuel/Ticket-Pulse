@@ -10,7 +10,7 @@ export default function Login () {
 
             <form action="" className="w-150 flex flex-col rounded-sm p-7 bg-[#E4F7FB] my-6">
                 <label className="mt-2 font-bold">Username</label>
-                <input type="text" name="" id=""  className="bg-white p-2 mt-2"/>
+                <input type="text" name="" id="" className="bg-white p-2 mt-2"/>
                 <label className="mt-2 font-bold">Password</label>
                 <input type="password" name="" id=""  className="bg-white p-2 mt-2"/>
                 <p className="text-red-700 mt-5">Invalid Credentials</p>
